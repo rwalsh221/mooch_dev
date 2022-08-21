@@ -79,8 +79,35 @@ select {
 
 * {
   --primary-color-green: #5a630d;
+  --secondary-color-white: #c4d1c4;
 }
 
 html {
-  background-color: var(--primary-color-green);
+  background-color: black;
+  font-size: 62.5%;
+}
+body {
+}
+
+.index-bg-container {
+  position: fixed;
+  z-index: -1;
+  opacity: 0.5;
+}
+
+.index-heading-container {
+  background-color: var(--secondary-color-white);
+  padding: 2rem;
+}
+
+.primary-heading {
+  color: var(--primary-color-green);
+  font-size: 5rem;
+  font-family: 'Alfa Slab One', cursive;
+  border: 1px solid var(--primary-color-green);
+  width: max-content;
+  padding: 0.5rem 1rem;
+  margin: 0 auto 0 10rem;
+  /* display: block; */
+  letter-spacing: 2px;
 }

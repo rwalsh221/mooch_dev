@@ -5,12 +5,18 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css" class="css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap" rel="stylesheet">
     <title>MoOCH | RUN AND CYCLE TRACKING</title>
 </head>
 <body>
-    <body>
+    <body class="index-body">
+        <div class="index-bg-container">
+            <img src="assets/img/forest_bg.jpg" alt="background">
+        </div>
         <div class="index-heading-container">
-            <h1 class="primary-heading">mooch</h1>
+            <h1 class="primary-heading">MoOCH</h1>
         </div>
         <h2 class="secondary-heading">fancy a mooch?</h2>
         <div class="register-container">
